@@ -10,12 +10,9 @@ namespace  TRINTY_ESTATES.Areas.Identity.Pages.Account.Manage
 { 
     public static class ManageNavPages
     {
-        
-        public static string Index => "Index";
+        public static string Index => "index";   
 
-        
-        public static string Email => "Email";
-
+        public static string Email => "email";
         
         public static string ChangePassword => "ChangePassword";
 
