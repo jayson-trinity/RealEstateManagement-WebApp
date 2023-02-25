@@ -4,7 +4,7 @@ namespace TRINTY_ESTATES.Controllers
 {
     public class RentController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Rent()
         {
             return View();
         }
