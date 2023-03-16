@@ -62,7 +62,6 @@ namespace TRINTY_ESTATES.Controllers
             {
                 _db.listings.Add(obj);
                 _db.SaveChanges();
-                TempData["Success"] = "Category Created Successfully";
                 return RedirectToAction("RentListing");
             }
             return View(obj);

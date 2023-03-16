@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TRINTY_ESTATES.Models;
 
 namespace TRINTY_ESTATES.Controllers
 {
@@ -6,7 +7,8 @@ namespace TRINTY_ESTATES.Controllers
     {
         public IActionResult Listings()
         {
-            return View();
+            ListingsModel model = new ListingsModel();
+            return View(model);
         }
     }
 }
